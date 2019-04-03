@@ -8,7 +8,7 @@ class Dog
   end
   
   def self.all
-    @@all.map { |d| puts d.name }
+    @@all.map { |d| dog.name }
   end
   
 end
